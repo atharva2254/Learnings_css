@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-items {
+  background-color: rgb(85, 18, 253);
+  color: white;
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  font-size: 50px;
+}

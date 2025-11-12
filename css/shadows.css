@@ -1,0 +1,11 @@
+.b_shadow {
+  box-shadow: 10px 10px 8px red;
+}
+.img_ratio {
+  width: 400px;
+  height: 400px;
+}
+
+.d_shadow {
+  filter: drop-shadow(10px 10px 10px rgb(220, 175, 28));
+}

@@ -1,0 +1,15 @@
+/* Types of borders: solid, dotted, dashed, double, inset, outset */
+.b_prop {
+  border: 10px solid red;
+  width: 600px;
+  height: 400px;
+}
+.b_radius {
+  /* border-radius: 50%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 30px; */
+  /* Alternate/better option: */
+  border-radius: 30px 80px 30px 80px;
+}
