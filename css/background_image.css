@@ -1,0 +1,10 @@
+body {
+  /* background-color: black; */
+  background-image: url("/images/tree_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}

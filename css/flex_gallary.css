@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gallary-items {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  border: 2px solid rgb(184, 183, 183);
+}

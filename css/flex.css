@@ -1,6 +1,6 @@
 .flex-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -15,4 +15,7 @@ li {
   width: 250px;
   margin: 20px;
   font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
