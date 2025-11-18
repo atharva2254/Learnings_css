@@ -1,0 +1,38 @@
+body {
+  background-color: beige;
+}
+
+ul {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 900px;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    background-color: aqua;
+  }
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+  img {
+    width: 500px;
+  }
+  li {
+    font-size: 20px;
+  }
+  .hidden {
+    display: none;
+  }
+}
